@@ -4,11 +4,12 @@
         <title>ping-pong</title>
         
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
         <link href="css/styles.css" rel="stylesheet" type="text/css"/>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+        <script src="js/script.js"></script>
     </head>
     <body>
-        <h1 id="h1">Ping-Pong</h1>
+            <marquee><h1 id="h1">Ping-Pong lets play the game its that intresting</h1></marquee>
         <h2 id="raw">lets play!</h2>
         <h3 id="raw">Rules</h3>
         <p id="row">ping pong will count up to your number from 1 with the following  expectations </p>
@@ -17,9 +18,12 @@
             <li id="row">number divisible by 5 become "pong" </li>
             <li id="row">number divisible by 3 and 5 become "pingpong"</li>
         </ol>
-        <p> <input id="ro" type="number" name="number" placeholder="enter your number here" required/>
-            <button type="submit" class="btn btn-danger">pingPong</button></p>
+        <form id="leo">
+        <input id="ro" type="text" name="number" placeholder="enter your number here" required/>
+            <button type="submit" class="btn btn-danger">pingPong</button>
+        </form>
             <div class="top">
+                <h3 id="v">About pingPong</h3>
                 <h3 id="v">created by</h3>
                 <p>victor waswa wandera</p>
                 <h4 id="v">practice</h4>
@@ -30,6 +34,8 @@
                     <li>bootstrap</li>
 
                 </ol>
+            </div>
+            <div id="result">
             </div>
             
     </body>
