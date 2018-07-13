@@ -3,7 +3,9 @@ body{
 }
 #h1{
     margin-left: 40%;
-    color:whitesmoke;
+    color:red;
+    animation-duration: 4s;
+    font-family: sans-serif;
 }
 #row{
     margin-left: 35%;
