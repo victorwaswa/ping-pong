@@ -1,4 +1,17 @@
+body{
+    background-color: blue;
+}
 #h1{
     margin-left: 40%;
     color:blue;
+}
+#row{
+    margin-left: 10%;
+    font-family: 'Times New Roman', Times, serif;
+    color:whitesmoke;
+}
+#raw{
+    margin-left: 10%;
+    font-family: sans-serif;
+    color: aqua;
 }
