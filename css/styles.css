@@ -6,17 +6,26 @@ body{
     color:blue;
 }
 #row{
-    margin-left: 10%;
+    margin-left: 35%;
     font-family: 'Times New Roman', Times, serif;
     color:whitesmoke;
 }
 #raw{
-    margin-left: 10%;
+    margin-left: 35%;
     font-family: sans-serif;
     color: aqua;
 }
 #ro{
     color:green;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    margin-left:10%;
+    margin-left:35%;
+}
+.top{
+    margin-top: -20%;
+    margin-left: 5%;
+    color: whitesmoke;
+}
+#v{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color:aqua;
 }
